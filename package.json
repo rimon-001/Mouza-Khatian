@@ -1,0 +1,16 @@
+{
+  "name": "mouza-khatian-engine",
+  "version": "1.0.0",
+  "description": "Mouza-Khatian Discrepancy & Land Fraud Detection Engine",
+  "main": "server/server.js",
+  "scripts": {
+    "build:client": "cd client && npm install && npm run build",
+    "install:server": "cd server && npm install",
+    "start": "node server/server.js",
+    "dev:server": "cd server && nodemon server.js",
+    "dev:client": "cd client && npm run dev"
+  },
+  "keywords": ["land-records", "cadastral", "khatian", "bangladesh", "sdg"],
+  "author": "",
+  "license": "ISC"
+}
